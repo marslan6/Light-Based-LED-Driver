@@ -1,0 +1,76 @@
+# Build output
+build/
+*.o
+*.obj
+*.axf
+*.bin
+*.elf
+*.hex
+*.map
+*.lst
+*.d
+*.crf
+*.htm
+*.lnp
+*.sct
+
+# Keil μVision specific
+*.uvguix.*
+*.uvoptx
+*.bak
+*.dep
+*.tra
+*.iex
+__Projectfiles/
+DebugConfig/
+RTE/_*/
+
+# IAR Embedded Workbench
+Debug/
+Release/
+*.ewt
+*.dni
+*.wsdt
+*.dbgdt
+*.wspos
+*.pbd
+*.browse
+settings/
+
+# GCC/Make
+*.a
+*.so
+*.elf
+
+# Eclipse/CDT
+.metadata/
+.settings/
+.project
+.cproject
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# OS specific
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Documentation build artifacts
+docs/*.html
+docs/*.aux
+docs/*.out
